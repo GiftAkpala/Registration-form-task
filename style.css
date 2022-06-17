@@ -1,0 +1,45 @@
+* {
+    box-sizing: border-box;
+}
+body {
+  background: hwb(0 48% 0%) url(images/bg-intro-mobile.png);
+  font-size: 16px;
+  padding: 50px;
+  font-family: 'Poppins', sans-serif;;
+}
+.container1 {
+  margin: auto;
+  color: white;
+}
+.container2 {
+  text-align: center;
+}
+form {
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+}
+p.form {
+  background-color: hsl(248, 32%, 49%);
+  color: white;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+#fname,
+#lname,
+#email,
+#pwd {
+  width: 90%;
+  padding: 10px;
+  font-weight: 600;
+  border-radius: 5px;
+}
+#btn {
+  background-color: hsl(154, 59%, 51%);
+  color: white;
+  width: 93%;
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+}
